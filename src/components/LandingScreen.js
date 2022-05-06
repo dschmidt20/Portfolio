@@ -1,7 +1,7 @@
 import React from "react";
 import AnimatedText from "react-animated-text-content";
 import { Button } from "antd";
-import resume from "/Users/daniel/Development/code/Projects/portfolio/src/Updated resume.pdf";
+import resume from "/Users/daniel/Development/code/Projects/portfolio/src/Daniel Schmidt-Resume.pdf";
 
 function LandingScreen() {
   return (
