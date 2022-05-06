@@ -1,7 +1,5 @@
 import React from "react";
 import AnimatedText from "react-animated-text-content";
-import { Button } from "antd";
-import resume from "/Users/daniel/Development/code/Projects/portfolio/src/Daniel Schmidt-Resume.pdf";
 
 function LandingScreen() {
   return (
@@ -67,7 +65,7 @@ function LandingScreen() {
             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
           />
         </a>
-        <a href={resume} target="_blank">
+        <a href='https://docs.google.com/document/d/1f9-aVc_f_Fyyvkgg5ILhdU4r_vCcmXum82n3a7iCYxY/edit?usp=sharing' target="_blank">
           <img
             className="social"
             alt="resume"
