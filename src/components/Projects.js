@@ -27,7 +27,7 @@ function Projects({ embedId }) {
         <div className="button-wrapper">
           <Button
             href="https://github.com/dschmidt20/Put-Me-In-Coach"
-            style={{ width: "40%", padding: "30px", fontSize: "2vw" }}
+            style={{ padding: "30px", fontSize: "2vh" }}
           >
             Github
           </Button>
@@ -62,7 +62,7 @@ function Projects({ embedId }) {
       <div className="button-wrapper">
         <Button
           href="https://github.com/glpierce/project-template-react-rails-api"
-          style={{ width: "40%", padding: "30px", fontSize: "2vw" }}
+          style={{ padding: "30px", fontSize: "2vh" }}
         >
           Github
         </Button>
@@ -80,7 +80,7 @@ function Projects({ embedId }) {
       <div className="button-wrapper">
         <Button
           href="https://github.com/dschmidt20/React-Beer-Rater"
-          style={{ width: "40%", padding: "30px", fontSize: "2vw" }}
+          style={{  padding: "30px", fontSize: "2vh" }}
         >
           Github
         </Button>
