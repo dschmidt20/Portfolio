@@ -17,13 +17,20 @@
   } */
   background-image: url('https://oldschoolgrappling.com/wp-content/uploads/2018/08/Background-opera-speeddials-community-web-simple-backgrounds.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment:fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 567px) {
+  .site-layout-content {
+    background-attachment: initial;
+  }
+}
+
 #components-layout-demo-top .logo {
   float: left;
   width: 120px;
@@ -88,7 +95,7 @@ h2 {
   font-size: clamp(26px, 5vw, 6vw); 
 }
 h3 {
-  font-size: clamp(20px, 3vw, 5vw); 
+  font-size: clamp(28px, 3vw, 5vw); 
 }
 .headshot {
   max-width: 100%;
