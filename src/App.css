@@ -27,7 +27,8 @@
 
 @media (max-width: 567px) {
   .site-layout-content {
-    background-attachment: initial;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
   }
 }
 
