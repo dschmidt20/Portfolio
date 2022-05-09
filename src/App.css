@@ -15,7 +15,7 @@
   100% {
     background-position: 0% 50%;
   } */
-  background-image: url('./images/background.png');
+  background-image: url('https://oldschoolgrappling.com/wp-content/uploads/2018/08/Background-opera-speeddials-community-web-simple-backgrounds.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100vw 100vh;
@@ -116,7 +116,7 @@ h3 {
 }
 
 .ant-divider-inner-text {
-  font-size: 4vw;
+  font-size: clamp(28px, 4vw, 5vw); 
   text-decoration: underline;
 }
 .tech {
